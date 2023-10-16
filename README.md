@@ -7,6 +7,7 @@ possuia muito conhecimento sobre python e suas bibliotecas.
 Nesse projeto foi solicitado os seguintes itens: 
 1 - O tratamento dos dados.
 2 - Criação de um programa que realize as atividades listadas abaixo:
+
 	1 - Exibição do mês com a maior soma de precitação. 
 	2 - O mês/ano com a maior precipitação  em um único dia e o volumede chuva nesse dia.
 	3 - Visualização do intervalo de dados em um limite final e inicial de mês/ano escolhido pelo usuário.
@@ -32,59 +33,57 @@ criar um ambiente virtual pelo Visual Studio Code com a versão correta do pytho
 
 Dowloand do visual studio code do siga os passos listados:
 
-1 - Acesse o site oficial do Visual Studio Code em https://code.visualstudio.com/
+	1 - Acesse o site oficial do Visual Studio Code em https://code.visualstudio.com/
 
-2 - Clique no botão "Download" para baixar o instalador apropriado para o seu sistema operacional (Windows, macOS ou Linux).
+	2 - Clique no botão "Download" para baixar o instalador apropriado para o seu sistema operacional (Windows, macOS ou Linux).
 
-3 - Execute o instalador e siga as instruções para instalar o VS Code no seu computador.
+	3 - Execute o instalador e siga as instruções para instalar o VS Code no seu computador.
 
-4 - Abra o VS Code após a instalação.
+	4 - Abra o VS Code após a instalação.
 
-Vá para a aba extensão  na barra lateral à esquerda e procure por "Python". Se você não encontrar essa aba você pode abrir usando ctrl+shift+x.
+	Vá para a aba extensão  na barra lateral à esquerda e procure por "Python". Se você não encontrar essa aba você pode abrir usando ctrl+shift+x.
 
-Após instalar a extensão Python, você verá um ícone de engrenagem no canto superior direito do VS Code. Clique nele e selecione "Python: Select Interpreter". Isso permite que você 
-escolha a versão do Python que deseja usar, mas para isso você precisa baixar a versão utlizada nesse projeto, para fazer isso acesse o site https://www.python.org/downloads/ e 
-instale a versão python==3.11.4.
+	Após instalar a extensão Python, você verá um ícone de engrenagem no canto superior direito do VS Code. Clique nele e selecione "Python: Select Interpreter". Isso permite que 		você escolha a versão do Python que deseja usar, mas para isso você precisa baixar a versão utlizada nesse projeto, para fazer isso acesse o site 					https://www.python.org/downloads/ e instale a versão python==3.11.4.
 
 Para testar o código é necessário criar um ambiente virtual com as versões do python e das bibliotecas utilizadas no projeto, para isso copie e cole um a um o código a seguir no terminal
 do VS code:
 
-Abra o terminal integrado no VS Code com o atalho Ctrl+`
+	Abra o terminal integrado no VS Code com o atalho Ctrl+`
+	
+	# Criando um ambiente virtual
+	No macOS ou Linux:
+	python3.11 -m venv myenv
+	
+	No Windows:
+	python3.11 -m venv myenv
+	
+	
+	
+	# Ativando o ambiente virtual
+	No macOS ou Linux:
+	source myenv/bin/activate
+	
+	No Windows:
+	.\myenv\Scripts\activate
 
-# Criando um ambiente virtual
-No macOS ou Linux:
-python3.11 -m venv myenv
+	Obs.: Talvez o powershell não permita a ativação do ambiente, então execute os passos a seguir:
 
-No Windows:
-python3.11 -m venv myenv
-
-
-
-# Ativando o ambiente virtual
-No macOS ou Linux:
-source myenv/bin/activate
-
-No Windows:
-.\myenv\Scripts\activate
-
-Obs.: Talvez o powershell não permita a ativação do ambiente, então execute os passos a seguir:
-
-	1 - Abra o Prompt de Comando como administrador. Para fazer isso, pressione Win+X e escolha "Prompt de Comando 	(Admin)" no Windows, ou clique em win e pesquise por prompt de comando, 
-      clique com o botão direito e execute como 	dministrador.
+	1 - Abra o Prompt de Comando como administrador. Para fazer isso, pressione Win+X e escolha "Prompt de Comando 	(Admin)" no Windows, ou clique em win e pesquise por prompt de 
+            comando, clique com o botão direito e execute como administrador.
 
 	2 - Navegue até a pasta do seu ambiente virtual:
-	cd caminho\para\pasta\Scripts (para isso vá até a pasta e clique com o botão direito na região do topo da página 	que exiba algo parecido com arquivos > nome da pasta).
+	cd caminho\para\pasta\Scripts (para isso vá até a pasta e clique com o botão direito na região do topo da página que exiba algo parecido com arquivos > nome da pasta).
 
 	3 - Execute activate:
 	activate
 
 	Isso ativará o ambiente virtual usando o prompt de comando.
 
-# Instalando as dependências
-pip install -r requisitos.txt
-
-#execute o teste do arquivo
-python Analise_precipitação.py
-
-Após testar o código você pode desativar o ambiente virtual usando o comando deactivate no macOS e no Linux, ou .\myenv\Scripts\deactivate no Windows.
-
+	# Instalando as dependências
+	pip install -r requisitos.txt
+	
+	#execute o teste do arquivo
+	python Analise_precipitação.py
+	
+	Após testar o código você pode desativar o ambiente virtual usando o comando deactivate no macOS e no Linux, ou .\myenv\Scripts\deactivate no Windows.
+	
