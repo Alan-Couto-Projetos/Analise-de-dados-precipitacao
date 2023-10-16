@@ -44,7 +44,7 @@ Dowloand do visual studio code, siga os passos listados:
 
 	Vá para a aba extensão  na barra lateral à esquerda e procure por "Python". Se você não encontrar essa aba você pode abrir usando ctrl+shift+x.
 
-	Após instalar a extensão Python, você verá um ícone de engrenagem no canto superior direito do VS Code. Clique nele e selecione "Python: Select Interpreter". Isso permite que 		você escolha a versão do Python que deseja usar, mas para isso você precisa baixar a versão utlizada nesse projeto, para fazer isso acesse o site 					https://www.python.org/downloads/ e instale a versão python==3.11.4.
+	Após instalar a extensão Python, você verá um ícone de engrenagem no canto superior direito do VS Code. Clique nele e selecione "Python: Select Interpreter". Isso permite que 	você escolha a versão do Python que deseja usar, mas para isso você precisa baixar a versão utlizada nesse projeto, para fazer isso acesse o site https://www.python.org/downloads/ e instale a versão python==3.11.4.
 
 Para testar o código é necessário criar um ambiente virtual com as versões do python e das bibliotecas utilizadas no projeto, para isso copie e cole um a um o código a seguir no terminal
 do VS code:
