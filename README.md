@@ -32,7 +32,7 @@ Nesse projeto foi solicitado os seguintes itens:
 Vale salientar que o tratamento dos dados irá ignorar qualquer zero digitado a esquerda do numero, assim transforma 000123 em 123 que vai gerar um erro caso esteja fora do limite máximo 
 e mínimo, limite esse que corresponde ao parâmetro que é passado para a função, neste caso sendo o ano ou o mês, portanto só irá usar os dados na faixa de valor especificada na função tratamentoentrada.
 
-Todo o projeto foi desenvolvido pelo Visual Studio Code, e para realizar o teste do código, tendo em vista a versão do python e das bibliotecas usadas, vou deixar o passo a passo de como
+Todo o projeto foi desenvolvido pelo Visual Studio Code, com isso em vista a versão do python e das bibliotecas usadas deve ser especificadas, vou deixar o passo a passo de como
 criar um ambiente virtual pelo Visual Studio Code com a versão correta do python e demais bibliotecas para evitar eventuais erros no código devido a novas atualizações.
 
 Dowloand do visual studio code, siga os passos listados:
