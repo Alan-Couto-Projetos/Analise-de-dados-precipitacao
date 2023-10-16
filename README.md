@@ -11,22 +11,24 @@ Nesse projeto foi solicitado os seguintes itens:
 
 		1 - Exibição do mês com a maior soma de precitação. 
 		2 - O mês/ano com a maior precipitação  em um único dia e o volume de chuva nesse dia.
-		3 - Visualização do intervalo de dados em um limite final e inicial de mês/ano escolhido pelo usuário.
-			3.1 - A visualização só pode ser feita entre a data de 01/01/1961 a 10/07/2016.
-			3.2 - A visualização só pode ser feita em uma faixa de valores que o ano final seja maior que o ano incial, caso contrário exibirá a mensagem solicitando um ano maior.
-			3.3 - É aceito apenas valores inteiros positivos para o mês e ano, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
-			3.4 - Há quatro formas de escolher a exibição dos dados após escolher o mês/ano, sendo elas:
-			      3.4.1 - Todos os dados, fazendo a exibição de toda as colunas.
-			      3.4.2 - Apenas a coluna de precipitação.
-			      3.4.3 - Apenas a coluna de temperatura.
-			      3.4.4 - Apenas a coluna de umidade e vento.
-			      3.4.5 - A opção de sair e retorna ao menu de opções inicial.
+  		3 - Menu incial com com as opções para o item 4, 5 e a opção para encerrar o código.
+		4 - Visualização do intervalo de dados em um limite final e inicial de mês/ano escolhido pelo usuário.
+			4.1 - A visualização só pode ser feita entre a data de 01/01/1961 a 10/07/2016.
+			4.2 - A visualização só pode ser feita em uma faixa de valores que o ano final seja maior que o ano incial, caso contrário exibirá a mensagem solicitando um ano maior.
+			4.3 - É aceito apenas valores inteiros positivos para o mês e ano, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
+			4.4 - Há quatro formas de escolher a exibição dos dados após escolher o mês/ano, sendo elas:
+			      4.4.1 - Todos os dados, fazendo a exibição de toda as colunas.
+			      4.4.2 - Apenas a coluna de precipitação.
+			      4.4.3 - Apenas a coluna de temperatura.
+			      4.4.4 - Apenas a coluna de umidade e vento.
+			      4.4.5 - A opção de sair e retorna ao menu de opções inicial.
 	 
- 		4 - Média da temperatura mínima de um determinado mês para todos os anos de uma faixa fixa de anos.
-			4.1 - Apenas o meses de 01 a 07, e o ano de 2006 a 2016.
-			4.2 - É aceito apenas valores inteiros positivos para o mês, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
-			4.3 - Criação de um gráfico de barras que exiba a média da temperatura mês a mês entre os anos de 2006 a 2016.
-		
+ 		5 - Média da temperatura mínima de um determinado mês para todos os anos de uma faixa fixa de anos.
+			5.1 - Apenas o meses de 01 a 07, e o ano de 2006 a 2016.
+			5.2 - É aceito apenas valores inteiros positivos para o mês, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
+			5.3 - Criação de um gráfico de barras que exiba a média da temperatura mês a mês entre os anos de 2006 a 2016.
+			5.4 - Após a exibição do resultado e do gráfico o código volta para o menu inicial.
+   
 Vale salientar que o tratamento dos dados irá ignorar qualquer zero digitado a esquerda do numero, assim transforma 000123 em 123 o q gerará um erro caso esteja fora do limite máximo 
 e mínimo, limite esse que corresponde ao parâmetro que é passado para a função, neste caso sendo o ano ou o mês, portanto só irá usar os dados na faixa de valor especificada.
 
