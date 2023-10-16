@@ -31,7 +31,7 @@ e mínimo, limite esse que corresponde ao parâmetro que é passado para a funç
 Todo o projeto foi desenvolvido pelo Visual Studio Code, e para realizar o teste do código, tendo em vista a versão do python e das bibliotecas usadas, vou deixar o passo a passo de como
 criar um ambiente virtual pelo Visual Studio Code com a versão correta do python e demais bibliotecas para evitar eventuais erros no código devido a novas atualizações.
 
-Dowloand do visual studio code do siga os passos listados:
+Dowloand do visual studio code, siga os passos listados:
 
 	1 - Acesse o site oficial do Visual Studio Code em https://code.visualstudio.com/
 
