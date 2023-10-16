@@ -35,7 +35,7 @@ e mínimo, limite esse que corresponde ao parâmetro que é passado para a funç
 Todo o projeto foi desenvolvido pelo Visual Studio Code, com isso em vista a versão do python e das bibliotecas usadas deve ser especificadas, vou deixar o passo a passo de como
 criar um ambiente virtual pelo Visual Studio Code com a versão correta do python e demais bibliotecas para evitar eventuais erros no código devido a novas atualizações.
 
-Dowloand do visual studio code, siga os passos listados:
+Dowloand do Visual Studio Code, siga os passos listados:
 
 	1 - Acesse o site oficial do Visual Studio Code em https://code.visualstudio.com/
 	2 - Clique no botão "Download" para baixar o instalador apropriado para o seu sistema operacional (Windows, macOS ou Linux).
@@ -47,7 +47,7 @@ Dowloand do visual studio code, siga os passos listados:
 	Após instalar a extensão Python, você verá um ícone de engrenagem no canto superior direito do VS Code. Clique nele e selecione "Python: Select Interpreter". Isso permite que 	você escolha a versão do Python que deseja usar, mas para isso você precisa baixar a versão utlizada nesse projeto, para fazer isso acesse o site https://www.python.org/downloads/ e instale a versão python==3.11.4.
 
 Para testar o código é necessário criar um ambiente virtual com as versões das bibliotecas utilizadas no projeto, para isso copie e cole um a um o código a seguir no terminal
-do VS code:
+do Visual Studio Code:
 
 	Abra o terminal integrado no VS Code com o atalho Ctrl+`
 	
