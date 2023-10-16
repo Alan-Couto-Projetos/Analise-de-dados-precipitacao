@@ -24,7 +24,7 @@ Nesse projeto foi solicitado os seguintes itens:
 	 
  		4 - Média da temperatura mínima de um determinado mês para todos os anos de uma faixa fixa de anos.
 			4.1 - Apenas o meses de 01 a 07, e o ano de 2006 a 2016.
-			4.2 - É aceito apenas valores inteiros positivos para o mês, qualquer entrada que não siga essa regra exibirá um erro, e solicitará uma entrada nova.
+			4.2 - É aceito apenas valores inteiros positivos para o mês, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
 			4.3 - Criação de um gráfico de barras que exiba a média da temperatura mês a mês entre os anos de 2006 a 2016.
 		
 Vale salientar que o tratamento dos dados irá ignorar qualquer zero digitado a esquerda do numero, assim transforma 000123 em 123 o q gerará um erro caso esteja fora do limite máximo 
