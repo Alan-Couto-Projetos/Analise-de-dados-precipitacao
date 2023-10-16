@@ -10,7 +10,7 @@ Nesse projeto foi solicitado os seguintes itens:
 	2 - Criação de um programa que realize as atividades listadas abaixo:
 
 		1 - Exibição do mês com a maior soma de precitação. 
-		2 - O mês/ano com a maior precipitação  em um único dia e o volumede chuva nesse dia.
+		2 - O mês/ano com a maior precipitação  em um único dia e o volume de chuva nesse dia.
 		3 - Visualização do intervalo de dados em um limite final e inicial de mês/ano escolhido pelo usuário.
 			3.1 - A visualização só pode ser feita entre a data de 01/01/1961 a 10/07/2016.
 			3.2 - A visualização só pode ser feita em uma faixa de valores que o ano final seja maior que o ano incial, caso contrário exibirá a mensagem solicitando um ano 			      maior.
