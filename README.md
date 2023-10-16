@@ -14,7 +14,7 @@ Nesse projeto foi solicitado os seguintes itens:
 		3 - Visualização do intervalo de dados em um limite final e inicial de mês/ano escolhido pelo usuário.
 			3.1 - A visualização só pode ser feita entre a data de 01/01/1961 a 10/07/2016.
 			3.2 - A visualização só pode ser feita em uma faixa de valores que o ano final seja maior que o ano incial, caso contrário exibirá a mensagem solicitando um ano maior.
-			3.3 - É aceito apenas valores inteiros positivos para o mês e ano, qualquer entrada que não siga essa regra exibirá um erro, e solicitará uma entrada nova.
+			3.3 - É aceito apenas valores inteiros positivos para o mês e ano, qualquer entrada que não siga essa regra exibirá um erro, assim solicitando uma entrada nova.
 			3.4 - Há quatro formas de escolher a exibição do dados após de escolher o mês/ano, sendo elas:
 			      3.4.1 - Todos os dados, fazendo a exibição de toda as colunas.
 			      3.4.2 - Apenas a coluna de precipitação.
