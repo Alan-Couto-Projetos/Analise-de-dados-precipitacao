@@ -49,7 +49,7 @@ Dowloand do Visual Studio Code, siga os passos listados:
 Para testar o código é necessário criar um ambiente virtual com as versões das bibliotecas utilizadas no projeto, para isso copie e cole um a um o código a seguir no terminal
 do Visual Studio Code:
 
-	Abra o terminal integrado no VS Code com o atalho Ctrl+`
+	Abra o terminal integrado no Visual Studio Code no Windows ou Linux com o atalho Ctrl+', e no Mac Cmd + ', ou pelo menu View(Ver)> terminal
 	
 	# Criando um ambiente virtual
 	No macOS ou Linux:
