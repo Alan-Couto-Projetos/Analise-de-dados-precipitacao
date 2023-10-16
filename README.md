@@ -29,7 +29,7 @@ Nesse projeto foi solicitado os seguintes itens:
 			5.3 - Criação de um gráfico de barras que exiba a média da temperatura mês a mês entre os anos de 2006 a 2016.
 			5.4 - Após a exibição do resultado e do gráfico o código volta para o menu inicial.
    
-Vale salientar que o tratamento dos dados irá ignorar qualquer zero digitado a esquerda do numero, assim transforma 000123 em 123 o q gerará um erro caso esteja fora do limite máximo 
+Vale salientar que o tratamento dos dados irá ignorar qualquer zero digitado a esquerda do numero, assim transforma 000123 em 123 o que gerará um erro caso esteja fora do limite máximo 
 e mínimo, limite esse que corresponde ao parâmetro que é passado para a função, neste caso sendo o ano ou o mês, portanto só irá usar os dados na faixa de valor especificada.
 
 Todo o projeto foi desenvolvido pelo Visual Studio Code, e para realizar o teste do código, tendo em vista a versão do python e das bibliotecas usadas, vou deixar o passo a passo de como
