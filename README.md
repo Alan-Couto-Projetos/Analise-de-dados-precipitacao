@@ -53,10 +53,10 @@ do Visual Studio Code:
 	
 	# Criando um ambiente virtual
 	No macOS ou Linux:
-	python3.11 -m venv myenv
+	python -m venv myenv
 	
 	No Windows:
-	python3.11 -m venv myenv
+	python -m venv myenv
 	
 	
 	
